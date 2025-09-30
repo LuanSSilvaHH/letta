@@ -1,0 +1,5 @@
+{
+  "/page": "app/page.js",
+  "/filmes/page": "app/filmes/page.js",
+  "/filmes/novo/page": "app/filmes/novo/page.js"
+}
