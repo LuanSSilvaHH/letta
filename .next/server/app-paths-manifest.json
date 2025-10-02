@@ -1,0 +1,4 @@
+{
+  "/clientes/page": "app/clientes/page.js",
+  "/clientes/cadastrar/page": "app/clientes/cadastrar/page.js"
+}
