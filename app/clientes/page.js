@@ -1,4 +1,4 @@
-import { Cliente } from "../../data/tabelas.js"
+import { Cliente } from "../../data/tabelas.js" // O caminho pode variar dependendo da estrutura do seu projeto
 
 async function Clientes(){
     const clientes = await Cliente.findAll()
@@ -6,16 +6,19 @@ async function Clientes(){
     return (
         <div>
             
-        <h1>Lista de filmes</h1> <br/>
-        <a href='/clientes/cadastrar'> Criar um filme</a>
+        <h1>Lista de Clientes</h1> <br/>
+        <a href='/clientes/cadastrar'> cadastrar um cliente</a>
         <table border = '1'>
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Nome</th>
                     <th>Email</th>
-                    <th>Senha</th>
+                    <th>Telefone</th>
+                    <th>CPF</th>
+                    <th>Nascimento</th> 
                     <th>Dados Bancarios</th>
+                    <th>Senha</th>
                 </tr>
             </thead>
             <tbody>
@@ -26,8 +29,11 @@ async function Clientes(){
                                 <td>{clien.id}</td>
                                 <td>{clien.nome}</td>
                                 <td>{clien.email}</td>
-                                <td>{clien.senha}</td>
+                                <td>{clien.telefone}</td>
+                                <td>{clien.cpf}</td> 
+                                <td>{clien.dataNascimento ? new Date(clien.dataNascimento).toLocaleDateString('pt-BR') : ''}</td>
                                 <td>{clien.dadosBancarios}</td>
+                                <td>{clien.senha}</td>
                             </tr>
                         )
                     })

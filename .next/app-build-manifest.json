@@ -5,20 +5,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/vendedores/cadastrar/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/vendedores/cadastrar/page.js"
     ],
-    "/filmes/page": [
+    "/vendedores/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/filmes/page.js"
+      "static/chunks/app/vendedores/page.js"
     ],
-    "/filmes/novo/page": [
+    "/clientes/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/filmes/novo/page.js"
+      "static/chunks/app/clientes/page.js"
+    ],
+    "/clientes/cadastrar/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/clientes/cadastrar/page.js"
+    ],
+    "/produtos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/produtos/page.js"
+    ],
+    "/produtos/cadastrar/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/produtos/cadastrar/page.js"
     ]
   }
 }
