@@ -1,7 +1,14 @@
 import { Vendedor } from "../../data/tabelas";
+import { redirect } from "next/navigation";
 
 // Força a renderização dinâmica da página para sempre buscar os dados mais recentes.
-export const dynamic = 'force-dynamic';
+async function removeVendedor(formData){
+        'use server'
+        const id = formData.get('id')
+        const filme =await Vendedor.findByPk(id)
+        await filme.destroy()
+        redirect('/vendedores')
+}
 
 async function Vendedores(){
     const vendedores = await Vendedor.findAll()
@@ -29,6 +36,11 @@ async function Vendedores(){
                                 <td>{vend.email}</td>
                                 <td>{vend.senha}</td>
                                 <td>{vend.cnpj}</td>
+                                <td> <form action = {removeVendedor}>
+                                    <input type='hidden' name='id' value={vend.id}/>
+                                    <button>Excluir</button>
+                                </form>
+                                     </td>
                                 </tr>
                             )
                         })

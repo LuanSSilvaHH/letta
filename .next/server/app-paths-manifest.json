@@ -1,7 +1,4 @@
 {
-  "/vendedores/page": "app/vendedores/page.js",
-  "/clientes/page": "app/clientes/page.js",
-  "/clientes/cadastrar/page": "app/clientes/cadastrar/page.js",
-  "/produtos/page": "app/produtos/page.js",
-  "/produtos/cadastrar/page": "app/produtos/cadastrar/page.js"
+  "/vendedores/cadastrar/page": "app/vendedores/cadastrar/page.js",
+  "/vendedores/page": "app/vendedores/page.js"
 }

@@ -1,4 +1,4 @@
-// File: C:\Users\Luan\Documents\programas\LETTA\app\vendedores\page.js
+// File: C:\Users\0075175\Documents\LETTA\app\vendedores\page.js
 import * as entry from '../../../../app/vendedores/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

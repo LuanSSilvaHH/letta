@@ -153,7 +153,7 @@ Envio.belongsTo(Pedido, { foreignKey: 'PedidoId' });
 EnderecoCliente.hasOne(Envio, { foreignKey: 'EnderecoId' });
 Envio.belongsTo(EnderecoCliente, { foreignKey: 'EnderecoId' });
 
-    mysql.sync({ force: false }) // Use `true` para recriar as tabelas
+    mysql.sync({ force: false}) // Use `true` para recriar as tabelas
     .then(async () => {
         console.log('Modelos sincronizados com o banco de dados.');
         
