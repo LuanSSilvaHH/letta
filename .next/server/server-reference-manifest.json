@@ -25,6 +25,63 @@
       },
       "filename": "../C:\\Users\\0075175\\Documents\\LETTA\\app\\vendedores\\cadastrar\\page.js",
       "exportedName": "$$RSC_SERVER_ACTION_0"
+    },
+    "40ee76596af49f368375ddd836ffb5f7a7753e15af": {
+      "workers": {
+        "app/vendedores/editar/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cvendedores%5C%5Ceditar%5C%5Cpage.js%22%2C%5B%7B%22id%22%3A%2240ee76596af49f368375ddd836ffb5f7a7753e15af%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cvendedores%5C%5Ceditar%5C%5Cpage.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/vendedores/editar/page": "rsc"
+      },
+      "filename": "../C:\\Users\\0075175\\Documents\\LETTA\\app\\vendedores\\editar\\page.js",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    },
+    "402253bcc6234f98eb1eb75abe6ada2e86063bfe07": {
+      "workers": {
+        "app/produtos/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Cpage.js%22%2C%5B%7B%22id%22%3A%22402253bcc6234f98eb1eb75abe6ada2e86063bfe07%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Cpage.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/produtos/editar/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Ceditar%5C%5Cpage.js%22%2C%5B%7B%22id%22%3A%2240c57ab68fb8935f5ed3b1ce1e6cdb672f144d331a%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Ceditar%5C%5Cpage.js%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Cpage.js%22%2C%5B%7B%22id%22%3A%22402253bcc6234f98eb1eb75abe6ada2e86063bfe07%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Cpage.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/produtos/page": "rsc",
+        "app/produtos/editar/page": "rsc"
+      },
+      "filename": "../C:\\Users\\0075175\\Documents\\LETTA\\app\\produtos\\page.js",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    },
+    "40597eb9c89afd40a0191fe4c0f0acc21bfea9cf31": {
+      "workers": {
+        "app/produtos/cadastrar/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Ccadastrar%5C%5Cpage.js%22%2C%5B%7B%22id%22%3A%2240597eb9c89afd40a0191fe4c0f0acc21bfea9cf31%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Ccadastrar%5C%5Cpage.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/produtos/cadastrar/page": "rsc"
+      },
+      "filename": "../C:\\Users\\0075175\\Documents\\LETTA\\app\\produtos\\cadastrar\\page.js",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    },
+    "40c57ab68fb8935f5ed3b1ce1e6cdb672f144d331a": {
+      "workers": {
+        "app/produtos/editar/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Ceditar%5C%5Cpage.js%22%2C%5B%7B%22id%22%3A%2240c57ab68fb8935f5ed3b1ce1e6cdb672f144d331a%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Ceditar%5C%5Cpage.js%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Cpage.js%22%2C%5B%7B%22id%22%3A%22402253bcc6234f98eb1eb75abe6ada2e86063bfe07%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5C0075175%5C%5CDocuments%5C%5CLETTA%5C%5Capp%5C%5Cprodutos%5C%5Cpage.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/produtos/editar/page": "rsc"
+      },
+      "filename": "../C:\\Users\\0075175\\Documents\\LETTA\\app\\produtos\\editar\\page.js",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
     }
   },
   "edge": {},

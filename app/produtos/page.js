@@ -1,4 +1,13 @@
 import { Produto, Vendedor, Categoria } from "../../data/tabelas"
+import { redirect } from "next/navigation";
+
+    async function removeProduto(formData){
+    'use server'
+    const id = formData.get('id')
+    const produto =await Produto.findByPk(id)
+    await produto.destroy()
+    redirect('/vendedores')
+}
 
 async function Produtos(){
     const produtos = await Produto.findAll({
@@ -40,6 +49,16 @@ async function Produtos(){
                                     {/* Acessa o nome da categoria a partir do objeto incluído */}
                                     <td>{prod.Categorium ? prod.Categorium.nome : ''}</td>
                                     <td>{prod.qtdEstoque}</td>
+                                    <td> 
+                                        <form action = {removeProduto}>
+                                        <input type='hidden' name='id' value={prod.id}/>
+                                        <button>Excluir</button> 
+                                    </form>
+                                        <form action = '/produtos/editar'>
+                                        <input type="hidden" name="id" value={prod.id}/>
+                                        <button>Editar</button></form>
+                                    
+                                    </td>
                                 </tr>
                             )
                         })
