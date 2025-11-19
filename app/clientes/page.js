@@ -1,5 +1,5 @@
 import { Cliente } from "../../data/tabelas.js" // O caminho pode variar dependendo da estrutura do seu projeto
-
+import ".././css/listagem.css"
 async function Clientes(){
     const clientes = await Cliente.findAll()
     

@@ -1,0 +1,48 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/css/base.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lora", serif;
+}
+
+header {
+    background-color: #700576;
+    height: 10vh;
+}
+
+main {
+    background-color: #ffffff;
+    min-height: 80vh;
+}
+
+footer {
+    background-color: #a7fe2a;
+    height: 10vh;
+
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+p {
+    color: fe,3b,94;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/css/menu.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    div {
+        border: 1px solid #fe3b94;
+    }
+}

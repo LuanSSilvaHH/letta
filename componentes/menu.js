@@ -1,11 +1,16 @@
+import "../app/css/menu.css"
+
 function Menu() {
     return (
-        <div>
-            <a href = '/'>Home</a>
-            <a href = '/clientes'>Clientes</a>
-            <a href = '/produtos'>Produtos</a>
-            <a href = '/vendedores'>Vendedores</a>
-        </div>
+        <nav>
+            <div><p style={{ color: '#a7fe2a', fontSize: '5vh' }}>Vendedores e mais</p></div>
+            <div>
+            <a style={{ color: '#fe3b94', fontSize: '2.5vh' }}href='/'>Home</a>&nbsp;
+            <a style={{ color: '#fe3b94', fontSize: '2.5vh' }}href='/clientes'>Clientes</a>&nbsp;
+            <a style={{ color: '#fe3b94', fontSize: '2.5vh' }} href='/produtos'>Produtos</a>&nbsp;
+            <a style={{ color: '#fe3b94', fontSize: '2.5vh' }} href='/vendedores'>Vendedores</a>  
+            </div>    
+        </nav>
     )
 }
 
