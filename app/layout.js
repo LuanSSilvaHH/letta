@@ -1,4 +1,5 @@
 import Menu from "../componentes/menu"
+import "./css/base.css"
 
 export const metadata = {
   title: 'Atividade 2.02',
@@ -9,8 +10,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <header>
       <Menu/>
+      </header>
+      <main>
       {children}
+      </main>
+      <footer>
+      <p>LETTA</p>
+      </footer>
       </body>
     </html>
   )
