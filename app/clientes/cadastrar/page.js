@@ -1,5 +1,6 @@
 import { Cliente, EnderecoCliente, Localidade } from '../../../data/tabelas' // Importe EnderecoCliente e Localidade
 import { redirect } from 'next/navigation'
+import "../../css/cadastro.css"
 
 async function CadastroCliente(formData) {
     'use server'

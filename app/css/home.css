@@ -5,7 +5,8 @@
     height: 80vh;
     border: 1px solid #ffffff;
     flex-direction: column;
-
+     background-image: url('/letta.png') ;
+     background-repeat: no-repeat;
     h1 {
         font-size: 5rem;
     }

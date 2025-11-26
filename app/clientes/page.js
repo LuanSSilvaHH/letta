@@ -1,5 +1,15 @@
 import { Cliente } from "../../data/tabelas.js" // O caminho pode variar dependendo da estrutura do seu projeto
 import ".././css/listagem.css"
+
+
+
+async function removeClientes(formData){
+    'use server'
+    const id = formData.get('id')
+    const clientes =await Cliente.findByPk(id)
+    await clientes.destroy()
+    redirect('/clientes')
+}
 async function Clientes(){
     const clientes = await Cliente.findAll()
     
@@ -34,6 +44,15 @@ async function Clientes(){
                                 <td>{clien.dataNascimento ? new Date(clien.dataNascimento).toLocaleDateString('pt-BR') : ''}</td>
                                 <td>{clien.dadosBancarios}</td>
                                 <td>{clien.senha}</td>
+                                <td> 
+                                        <form action = {removeClientes}>
+                                        <input type='hidden' name='id' value={clien.id}/>
+                                        <button>&#10006;</button> 
+                                    </form>
+                                        <form action = '/produtos/editar'>
+                                        <input type="hidden" name="id" value={clien.id}/>
+                                        <button>&#9998;</button></form>
+                                </td>
                             </tr>
                         )
                     })

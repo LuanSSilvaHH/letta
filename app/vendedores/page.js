@@ -1,6 +1,6 @@
 import { Vendedor } from "../../data/tabelas";
 import { redirect } from "next/navigation";
-
+import ".././css/listagem.css"
 
 // Força a renderização dinâmica da página para sempre buscar os dados mais recentes.
 async function removeVendedor(formData){
@@ -38,16 +38,16 @@ async function Vendedores(){
                                 <td>{vend.email}</td>
                                 <td>{vend.senha}</td>
                                 <td>{vend.cnpj}</td>
-                                <td> <form action = {removeVendedor}>
-                                    <input type='hidden' name='id' value={vend.id}/>
-                                    <button>Excluir</button> 
-                                </form>
-                                </td>
-                                <td>
-                                    <form action = '/vendedores/editar'>
-                                    <input type="hidden" name="id" value={vend.id}/>
-                                    <button>Editar</button></form>
-                                </td>     
+                                <td> 
+                                        <form action = {removeVendedor}>
+                                        <input type='hidden' name='id' value={vend.id}/>
+                                        <button>Excluir</button> 
+                                    </form>
+                                        <form action = '/produtos/editar'>
+                                        <input type="hidden" name="id" value={vend.id}/>
+                                        <button>Editar</button></form>
+                                    
+                                    </td>   
                                 </tr>
                             )
                         })

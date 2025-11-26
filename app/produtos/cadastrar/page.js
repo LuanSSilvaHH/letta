@@ -1,6 +1,6 @@
 import { redirect } from 'next/navigation';
 import { Produto, Vendedor, Categoria } from '../../../data/tabelas';
-
+import "../../css/cadastro.css"
 
 async function insereProduto(formData) {
     'use server';

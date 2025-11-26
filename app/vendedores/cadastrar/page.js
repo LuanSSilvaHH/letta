@@ -1,5 +1,6 @@
 import { Vendedor, Localidade } from "../../../data/tabelas";
 import { redirect } from 'next/navigation';
+import "../../css/cadastro.css"
 // Não é mais necessário importar 'revalidatePath' com a abordagem 'force-dynamic'.
 
 async function CadastroVendedor(formData){
