@@ -1,5 +1,6 @@
 import { Produto, Vendedor, Categoria } from "../../data/tabelas"
 import { redirect } from "next/navigation";
+import ".././css/listagem.css"
 
     async function removeProduto(formData){
     'use server'
@@ -21,7 +22,7 @@ async function Produtos(){
         <div>
             <h1>Lista de Produtos</h1> <br/>
             <a href='/produtos/cadastrar'> Criar um produto</a>
-            <table border = '1'>    
+            <table>    
                 <thead>
                     <tr>
                         <th>ID</th>

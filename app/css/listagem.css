@@ -1,5 +1,22 @@
 table {
     width: 80%;
     margin: auto;
-    
+    border: 1px solid #a322fa;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+th, td {
+    border: 1px solid #a322fa;
+}
+
+td:last-child{
+  display: flex;
+  justify-content: center;
+  button {
+    margin: 5px;
+    padding: 2px;
+    color: #a322fa;
+    border: none;
+  }
 }
