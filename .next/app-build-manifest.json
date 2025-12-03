@@ -12,11 +12,11 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/clientes/page": [
+    "/vendedores/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/clientes/page.css",
-      "static/chunks/app/clientes/page.js"
+      "static/css/app/vendedores/page.css",
+      "static/chunks/app/vendedores/page.js"
     ],
     "/produtos/page": [
       "static/chunks/webpack.js",
@@ -24,22 +24,11 @@
       "static/css/app/produtos/page.css",
       "static/chunks/app/produtos/page.js"
     ],
-    "/vendedores/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/vendedores/page.css",
-      "static/chunks/app/vendedores/page.js"
-    ],
     "/vendedores/cadastrar/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/vendedores/cadastrar/page.css",
       "static/chunks/app/vendedores/cadastrar/page.js"
-    ],
-    "/clientes/cadastrar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/clientes/cadastrar/page.js"
     ],
     "/produtos/editar/page": [
       "static/chunks/webpack.js",
@@ -47,16 +36,17 @@
       "static/css/app/produtos/editar/page.css",
       "static/chunks/app/produtos/editar/page.js"
     ],
-    "/produtos/cadastrar/page": [
+    "/clientes/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/produtos/cadastrar/page.css",
-      "static/chunks/app/produtos/cadastrar/page.js"
+      "static/css/app/clientes/page.css",
+      "static/chunks/app/clientes/page.js"
     ],
-    "/_not-found/page": [
+    "/clientes/cadastrar/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/clientes/cadastrar/page.css",
+      "static/chunks/app/clientes/cadastrar/page.js"
     ]
   }
 }
