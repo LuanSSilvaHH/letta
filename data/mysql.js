@@ -1,7 +1,8 @@
 import { Sequelize } from 'sequelize'
+/*import mysql2 from 'mysql2'*/
 import pg from 'pg'
 
-/* const mysql = new Sequelize({
+/*const mysql = new Sequelize({
     dialect: 'mysql',
     dialectModule: mysql2,
     host: 'localhost',

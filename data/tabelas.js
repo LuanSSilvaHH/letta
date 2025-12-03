@@ -49,7 +49,7 @@ const Categoria = mysql.define("Categoria", {
         defaultValue: DataTypes.NOW
     }
 }, {
-    timestamps: false // E desativamos a criação automática
+    timestamps: true // E desativamos a criação automática
 });
 
 // Produtos 

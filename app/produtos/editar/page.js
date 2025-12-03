@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { Produto, Categoria, Vendedor  } from "../../../data/tabelas";
-import Produtos from "../page";
+import Produtos from "../page.js";
 
     async function editaProduto(formData) {
         'use server'
